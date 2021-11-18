@@ -1,0 +1,12 @@
+.sideBar {
+  animation: slide 0.2s 1 linear;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
